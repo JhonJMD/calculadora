@@ -12,23 +12,45 @@
     <body>
         <div class="container">
             <div class="display"></div>
-            <div class="col-auto buttons">
-                <div class="col-7 numbers">
-                    <button type="button" class="btn btn-secondary">1</button>
-                    <button type="button" class="btn btn-secondary">2</button>
-                    <button type="button" class="btn btn-secondary">3</button>
-                    <button type="button" class="btn btn-secondary">4</button>
-                    <button type="button" class="btn btn-secondary">5</button>
-                    <button type="button" class="btn btn-secondary">6</button>
-                    <button type="button" class="btn btn-secondary">7</button>
-                    <button type="button" class="btn btn-secondary">8</button>
-                    <button type="button" class="btn btn-secondary">9</button>
-                    <button type="button" class="btn btn-secondary">.</button>
-                    <button type="button" class="btn btn-secondary">0</button>
-                    <button type="button" class="btn btn-secondary">=</button>
+            <div class="col-auto d-flex buttons">
+                <div class="col-7 d-flex flex-column numbers">
+                    <div class="row">
+                        <button type="button" class="btn btn-secondary">1</button>
+                        <button type="button" class="btn btn-secondary">2</button>
+                        <button type="button" class="btn btn-secondary">3</button>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-secondary">4</button>
+                        <button type="button" class="btn btn-secondary">5</button>
+                        <button type="button" class="btn btn-secondary">6</button>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-secondary">7</button>
+                        <button type="button" class="btn btn-secondary">8</button>
+                        <button type="button" class="btn btn-secondary">9</button>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-secondary">.</button>
+                        <button type="button" class="btn btn-secondary">0</button>
+                        <button type="button" class="btn btn-secondary">=</button>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-secondary">(</button>
+                        <button type="button" class="btn btn-secondary">)</button>
+                    </div>        
                 </div>
-                <div class="col-5">
-                    
+                <div class="col-5 operaciones">
+                    <button type="button" class="btn btn-danger">C</button>
+                    <button type="button" class="btn btn-info">+</button>
+                    <button type="button" class="btn btn-info">-</button>
+                    <button type="button" class="btn btn-info">*</button>
+                    <button type="button" class="btn btn-info">/</button>
+                    <button type="button" class="btn btn-info">√</button>
+                    <button type="button" class="btn btn-info">Sin</button>
+                    <button type="button" class="btn btn-info">Cos</button>
+                    <button type="button" class="btn btn-info">x^y</button>
+                    <button type="button" class="btn btn-info">Tan</button>
+
                 </div>
             </div>
         </div>
