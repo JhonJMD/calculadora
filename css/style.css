@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(209, 198, 198);
+    padding: 50px;
+    margin: 100px auto;
+}
+
+.display{
+    margin: 10px 0;
+    height: 15vh;
+    background-color: gray;
+}
+
+.btn{
+    margin: 5px;
+    width: 10vw;
+    height: 8vh;
+}
